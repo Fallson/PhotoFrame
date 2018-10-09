@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PFLeftCtrlPane</class>
+ <widget class="QWidget" name="PFLeftCtrlPane">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>246</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PFLeftCtrlPane</string>
+  </property>
+  <widget class="QPushButton" name="btnLang">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>120</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Language</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Step 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>210</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose size of the ballon</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnA4Paper">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>68</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnA3Paper">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>68</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A3+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>210</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select your template</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Step 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBall">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>68</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ball</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHeart">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>210</y>
+     <width>68</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Heart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnStar">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>210</y>
+     <width>68</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Star</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>210</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Step 3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>210</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select photos from your folder</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPhoto">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>310</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Photo</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="sliderPhotoScale">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>380</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbZoomPic">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRotateR">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>413</y>
+     <width>30</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRotateL">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>413</y>
+     <width>30</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnText">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>413</y>
+     <width>30</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>350</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="msl_label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>btnLang</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btnA4Paper</zorder>
+  <zorder>btnA3Paper</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>btnBall</zorder>
+  <zorder>btnHeart</zorder>
+  <zorder>btnStar</zorder>
+  <zorder>label_5</zorder>
+  <zorder>btnPhoto</zorder>
+  <zorder>sliderPhotoScale</zorder>
+  <zorder>lbZoomPic</zorder>
+  <zorder>btnRotateR</zorder>
+  <zorder>btnRotateL</zorder>
+  <zorder>btnText</zorder>
+  <zorder>line</zorder>
+  <zorder>msl_label</zorder>
+  <zorder>label_6</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
